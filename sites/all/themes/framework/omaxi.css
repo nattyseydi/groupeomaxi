@@ -1,0 +1,191 @@
+/* Drupal 7 omaxi custom theme css 
+edited by seydi from bantalabs
+------------------------------------------------ */
+
+/* The Body */
+body {
+	background:url("images/bgomaxi.jpg") repeat-y scroll center top transparent;
+}
+
+/* the Wrapper */
+#wrapper {
+    border-top: 4px solid red;
+    left: 50%;
+    margin-left: -510px;
+    position: absolute;
+    width: 1000px;
+		color:#444444;
+		font: 12px Arial;
+}
+
+
+/*left Sidebar*/
+#sidebar-first {
+    float: left;
+    padding: 1px 10px 0 93px;
+    width: 260px;
+		/*margin-top:-625px;*/
+}
+
+#block-block-4 {
+	margin-top:-500px;
+}
+
+.region-sidebar-first {
+	margin-top:-610px;
+}
+
+
+/*Main content*/
+#main {
+    margin: 145px 100px 0 500px;
+		width:450px;
+		height:450px;
+		float:right
+}
+
+#main li {
+    background: url("images/ar_blue.png") no-repeat scroll left center transparent;
+    line-height: 140%;
+    margin-left: 25px;
+    padding-left: 20px;
+}
+
+#main ul {
+    list-style-type:none;
+}
+
+ .node-readmore a{
+	
+	display:none;
+}
+ #main li.node-readmore  {
+	display:none;
+}
+ 
+/*Content*/
+.region-content {
+	color:#000;
+}
+
+#page-title{
+	border-bottom:3px solid red;
+	margin-bottom:15px;
+}
+
+/*Block*/
+
+#block-block-1 {
+	padding-left:15px;
+}
+
+#block-block-2 {
+	padding-left:15px;
+}
+
+
+p a:hover{
+	color:red;
+	text-decoration:none;
+}
+
+#block-system-main-menu{
+	background:none;
+	padding-left:15px;
+	font-size:16px;
+	Font-family:Arial;
+	color:#FFF;
+	list-style:none;
+}
+
+#block-system-main-menu li{
+	background: #d8e0de; /* Old browsers */
+	background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 37%, #8ea6a2 46%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8e0de), color-stop(22%,#aebfbc), color-stop(37%,#99afab), color-stop(46%,#8ea6a2), color-stop(67%,#829d98), color-stop(82%,#4e5c5a), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d8e0de 0%,#aebfbc 22%,#99afab 37%,#8ea6a2 46%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d8e0de 0%,#aebfbc 22%,#99afab 37%,#8ea6a2 46%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #d8e0de 0%,#aebfbc 22%,#99afab 37%,#8ea6a2 46%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* IE10+ */
+	background: linear-gradient(top, #d8e0de 0%,#aebfbc 22%,#99afab 37%,#8ea6a2 46%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+	
+	border:solid 3px black;
+	margin-top:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	color:#FFF;
+	list-style:none;
+}
+
+
+
+#block-system-main-menu li:hover{
+	background:red;
+	color:black;
+	text-decoration:none;
+}
+
+#block-system-main-menu a{
+	padding:15px;
+	text-decoration:none;
+	color:#FFF;
+}
+
+#block-system-main-menu li:active{
+	background:red;
+	color:black;
+	text-decoration:none;
+}
+
+#block-system-main-menu a:hover{
+	color:black;
+	text-decoration:none;
+	
+}
+
+ ul.menu {
+	list-style-type:none;
+}
+
+.block-menu ul.menu {
+	list-style-type:none;
+}
+
+#block-system-main-menu ul {
+	list-style-type:none;
+}
+
+/*Footer*/
+
+#footer {
+    bottom: 30px;
+    color: #000;
+    padding-right: 100px;
+    text-align: right;
+    width: 985px;
+		margin-top:25px;
+}
+
+#footer a:hover {
+	color: #333333;
+	text-decoration:none;
+}
+
+#footer a {
+	color: #999999;
+	text-decoration:none;
+}
+
+#footer img {
+	display:inline;
+	margin-top:10px;
+}
+
+.feed-icon {
+	display:none;
+}
+
+.feed-icon a {
+	display:none;
+}
+
+

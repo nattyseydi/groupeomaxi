@@ -1,0 +1,29 @@
+name = Framework
+description = Framework is a blank canvas for theme developers. Use Framework as a starting point to facilitate your theme development.
+package = Core
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[all][] = omaxi.css
+
+
+regions[sidebar_first]   = First Sidebar
+;regions[sidebar_second] = Second Sidebar
+regions[header]          = Header
+;regions[highlighted]    = Highlighted
+regions[content_top]     = Content Top
+regions[content]         = Content
+regions[content_bottom]  = Content Bottom
+;regions[navigation]     = Navigation
+;regions[help]           = Help
+regions[footer]          = Footer
+;regions[page_top]       = Page top
+;regions[page_bottom]    = Page bottom
+
+
+; Information added by drupal.org packaging script on 2011-08-28
+version = "7.x-3.5"
+core = "7.x"
+project = "framework"
+datestamp = "1314564416"
+
